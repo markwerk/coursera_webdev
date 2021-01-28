@@ -16,6 +16,12 @@ p{
     color: green;
 }
 
+h2{
+    float: right;
+    padding: 3px;
+    border: 2px solid black;
+}
+
 .row{
     width: 100%;
 }
