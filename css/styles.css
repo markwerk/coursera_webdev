@@ -2,13 +2,13 @@
     box-sizing: border-box;
 }
 
+.header{
+    text-align: center;
+}
+
 p{
     font-family: 'Courier New', Courier, monospace;
     color: green;
-}
-
-.article-header{
-    text-align: center;
 }
 
 .row{
