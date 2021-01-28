@@ -6,6 +6,10 @@
     text-align: center;
 }
 
+h1{
+    color: grey;
+}
+
 p{
     font-family: 'Courier New', Courier, monospace;
     color: green;
