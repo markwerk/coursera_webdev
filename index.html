@@ -4,43 +4,164 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hong Wok Chu's China Bistro</title>
-    <link rel="stylesheet" href="css/styles.css">
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-    <div class="header">
-        <h1>Our Menu</h1>
+   <header>
+       <!-- <nav id="header-nav" class="navbar navbar-default">
+ 
+            <a class="navbar-brand visible-md visible-lg" href="#">
+                <img src="./images/chinese-food.png" width="110" height="110" class="d-inline-block align-top" alt="">
+            </a>
+            <div class="navbar-brand">
+                <p id="nav-text1">Hong Wok Chu's China Bistro</p>
+                <p id="nav-text2">Best Chinese food experience</p>
+            </div>
+
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                <span class="sr-only">toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Hiome <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                  </li>
+                </ul>
+              </div>
+       </nav> -->
+       <nav id="header-nav" class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand visible-md visible-lg" href="#">
+            <img src="./images/chinese-food.png" width="110" height="110" id="logo-head" class="d-inline-block align-top" alt="">
+        </a>
+        <div class="navbar-brand">
+            <p id="nav-text1">Hong Wok Chu's China Bistro</p>
+            <p id="nav-text2">Best Chinese food experience</p>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"> 
+                <i class="fas fa-utensils ml-3"></i><br class="d-none d-lg-block"> Menu<span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fas fa-address-card ml-3"></i><br class="d-none d-lg-block"> About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fas fa-certificate ml-3"></i><br class="d-none d-lg-block"> Awards</a>
+            </li>
+            <li class="nav-item d-none d-lg-block">
+                <a id="telefoon-text" class="nav-link" href="#">
+                <span >010: 4103490</span> <br>* We Deliver</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="d-lg-none mt-4 mb-4 px-4">
+        <button type="button" class="btn btn-warning btn-lg btn-block .d-none .d-sm-block .d-md-none shadow"><i class="fas fa-phone mr-2"></i>  Phone</button>
     </div>
-    <div class="row">
-        <div class="col-lg-4 col-md-6 sx-12">
-            <div class="item">
-                <h2  id="nr1">Chicken</h2>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+    <div id="main-content">
+        <div class="jumbotron jumbotron-fluid">
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="home-tiles" class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div id="tile1" class="tile-inhoud border">
+                    <div>
+                        <a href="#" class="stretched-link">Menu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div id="tile2" class="tile-inhoud border">
+                    <div>
+                        <a href="#" class="stretched-link">Specials</a>
+                    </div>      
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+                <div id="tile3" class="border">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.6752464053516!2d-76.71387678463584!3d39.363590279501345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81a14e7817803%3A0xab20a0e99daa17ea!2sDavid%20Chu&#39;s%20China%20Bistro!5e0!3m2!1snl!2snl!4v1612359148909!5m2!1snl!2snl" 
+                        width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <div>     
+                        <a href="https://goo.gl/maps/rfz7i7FyXoSCCheH7" class="stretched-link">Map</a>
+                    </div>
+                </div>
             </div>
         </div>
-
-
-        <div class="col-lg-4 col-md-6 sx-12">
-            <div class="item">
-                <h2 id="nr2">Beef</h2>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-        </div>
-
-
-        <div class="col-lg-4 col-md-12 sx-12">
-            <div class="item">
-                <h2 id="nr3">Sushi</h2>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-        </div>
-
     </div>
 
-    </div>
+    <footer>
+        <div class="container-fluid mt-4 pb-2">
+            <div class="row py-4">
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+                    <span>Hours:</span><br>
+                    Sun-ThursL 11:15am - 10:00pm<br>
+                    Fri: 11:15am - 2:30pm<br>
+                    Saturday collapsed
+                    <hr class="d-md-none">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center">
+                    <span>Address:</span><br>
+                    170 Reistertown Road<br>
+                    Baltimore, MD 21215<br>
+                    *Deliverys only within 4 miles
+                    <hr class="d-md-none">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center text-decoration-none">   
+                    <ul class="list-unstyled">
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>LinkedIn</li>
+                    </ul>
+                    <div class="d-md-none">
+                        <hr>
+                    </div>
+                </div> 
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p><em>Copyright Hong Wok Chu's China Bistro</em></p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
+      
     <!-- Bootstrap JavaScript -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

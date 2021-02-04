@@ -2,5 +2,125 @@ body{
     font-size: 16px;
     color: #fff;
     background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
 }
 
+#header-nav{
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+    padding-right: 0;
+}
+
+#logo-img {
+    background: url('../images/chinese-food.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+
+#nav-text1{
+    color: green;
+    margin-top: 14px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+#nav-text2{
+    color: black;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: -12px;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+  }
+  .navbar-toggler:active {
+    border: none;
+    outline: none;
+  }
+
+#telefoon-text{
+    color: #61122f;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #logo-head {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    #logo-head {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+#navbarNav ul{
+    margin-top: 24px;
+}
+
+#navbarNav ul li a i{
+    margin-right: 5px;
+}
+
+/* Body */
+.jumbotron {
+    background-image: url("../images/chin-restau.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.row div{
+    color: white;
+}
+
+#home-tiles div {
+    position: relative;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 15px;
+    /* overflow: hidden; */
+}
+
+#home-tiles div div:hover {
+    box-shadow: 0 3px 6px 4px #2e0505;
+}
+
+#tile1{
+    background-image: url(../images/chinees-eten1.jpg);
+    background-size: cover;
+}
+
+#tile2{
+    background-image: url(../images/chinees-eten2.jpg);
+    background-size: cover;
+}
+
+#home-tiles div div div {
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    background-color: rgba(255,0,0, .7);
+    border-radius: 12px 12px 0 0;
+    height: 18%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: ivory;
+    font-size: 1.2em;
+}
+
+#home-tiles div div div a{
+    color: ivory; 
+}
+
+footer{
+    background-color: rgb(131, 126, 126);
+}
