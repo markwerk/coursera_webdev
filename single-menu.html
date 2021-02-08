@@ -15,41 +15,7 @@
     
 </head>
 <body>
-   <header>
-       <!-- <nav id="header-nav" class="navbar navbar-default">
- 
-            <a class="navbar-brand visible-md visible-lg" href="#">
-                <img src="./images/chinese-food.png" width="110" height="110" class="d-inline-block align-top" alt="">
-            </a>
-            <div class="navbar-brand">
-                <p id="nav-text1">Hong Wok Chu's China Bistro</p>
-                <p id="nav-text2">Best Chinese food experience</p>
-            </div>
-
-            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-                <span class="sr-only">toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Hiome <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                  </li>
-                </ul>
-              </div>
-       </nav> -->
+   <header> 
        <nav id="header-nav" class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand visible-md visible-lg" href="index.html">
             <img src="./images/chinese-food.png" width="110" height="110" id="logo-head" class="d-inline-block align-top" alt="">
@@ -63,7 +29,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="menu.html"> 
                 <i class="fas fa-utensils ml-3"></i><br class="d-none d-lg-block"> Menu<span class="sr-only">(current)</span>
                 </a>
@@ -85,41 +51,85 @@
       </nav>
     </header>
 
-    <div class="d-lg-none mt-4 mb-4 px-4">
-        <button type="button" class="btn btn-warning btn-lg btn-block .d-none .d-sm-block .d-md-none shadow"><i class="fas fa-phone mr-2"></i>  Phone</button>
-    </div>
-
-    <div id="main-content">
-        <div class="jumbotron jumbotron-fluid">
+    <div id="main-content" class="container">
+        <h2 class="text-center mt-4">Lunch Menu</h2>
+        <div class="text-center font-italic">
+           The lunch is from 11:30 till 14:30 available. 
         </div>
-    </div>
 
-    <div class="container">
-        <div id="home-tiles" class="row">
-            <div class="col-12 col-md-6 col-lg-4">
-                <div id="tile1" class="tile-inhoud border">
-                    <div>
-                        <a href="#" class="stretched-link">Menu</a>
+        <section class="row mt-4">
+            <div class="col-12 col-md-6 mb-3">
+                <div class="row">
+                    <div id="singlemenu-img1" class="col-12 col-sm-5"></div>
+                    <div id="singlemenu-text" class="col-12 col-sm-7">
+                        <h3><span>1. </span>Orange Chicken</h3>
+                        <div class="price">$9,50</div>
+                        <p class="font-italic">Contrary to popular belief, LoIpsum isnot simply r45 BC, makin not simply r45 BC, making it over 2000 years old.</p>
+                        <hr class="d-sm-none">
                     </div>
-                </div>
+                </div>          
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
-                <div id="tile2" class="tile-inhoud border">
-                    <div>
-                        <a href="#" class="stretched-link">Specials</a>
-                    </div>      
-                </div>
-            </div>
-            <div class="col-12 col-md-12 col-lg-4">
-                <div id="tile3" class="border">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.6752464053516!2d-76.71387678463584!3d39.363590279501345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81a14e7817803%3A0xab20a0e99daa17ea!2sDavid%20Chu&#39;s%20China%20Bistro!5e0!3m2!1snl!2snl!4v1612359148909!5m2!1snl!2snl" 
-                        width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                    <div>     
-                        <a href="https://goo.gl/maps/rfz7i7FyXoSCCheH7" class="stretched-link">Map</a>
+            <div class="col-12 col-md-6 mb-3">
+                <div class="row">
+                    <div id="singlemenu-img2" class="col-12 col-sm-5  order-last order-md-first">
+                        
                     </div>
-                </div>
+                    <div id="singlemenu-text" class="col-12 col-sm-7">
+                        <h3><span>2. </span>Meetball</h3>
+                        <div class="price">$11,50</div>
+                        <p class="font-italic">Contrary to popular belief, Lorem Ipsum is not simply random teaking it over 2000 years old.<br><br></p>
+                        <hr class="d-sm-none">
+                    </div>
+                </div>          
             </div>
-        </div>
+            <div class="clearfix d-sm-none"></div>
+            <div class="col-12 col-md-6 mb-3">
+                <div class="row">
+                    <div id="singlemenu-img3" class="col-12 col-sm-5"></div>
+                    <div id="singlemenu-text" class="col-12 col-sm-7">
+                        <h3><span>3. </span>Babipangan</h3>
+                        <div class="price">$12,50</div>
+                        <p class="font-italic">Contrary to popular belief, Lorem Ipsum is not simply BC, making it over 2000 years old.<br><br></p>
+                        <hr class="d-sm-none">
+                    </div>
+                </div>          
+            </div>
+            <div class="col-12 col-md-6 mb-3">
+                <div class="row">
+                    <div id="singlemenu-img4" class="col-12 col-sm-5  order-last order-md-first"></div>
+                    <div id="singlemenu-text" class="col-12 col-sm-7">
+                        <h3><span>4. </span>Peeking Duck</h3>
+                        <div class="price">$13,00</div>
+                        <p class="font-italic">Contrary to popular belief, Lorem Ipsum is not simply randC, making it over 2000 years old.</p>
+                        <hr class="d-sm-none">
+                    </div>
+                </div>          
+            </div>
+            <div class="clearfix d-sm-none"></div>
+            <div class="col-12 col-md-6 mb-3">
+                <div class="row">
+                    <div id="singlemenu-img5" class="col-12 col-sm-5"></div>
+                    <div id="singlemenu-text" class="col-12 col-sm-7">
+                        <h3><span>5. </span> Fu Yung Hai</h3>
+                        <div class="price">$26,00</div>
+                        <p class="font-italic">Contrary to popular belief, Lorem Ipsum is not simply BC, making it over 2000 years old.<br><br></p>
+                        <hr class="d-sm-none">
+                    </div>
+                </div>          
+            </div>
+            <div class="col-12 col-md-6 mb-3">
+                <div class="row">
+                    <div id="singlemenu-img1" class="col-12 col-sm-5  order-last order-md-first"></div>
+                    <div id="singlemenu-text" class="col-12 col-sm-7">
+                        <h3><span>6. </span>Nasi</h3>
+                        <div class="price">$28,00</div>
+                        <p class="font-italic">Contrary to popular belief, Lorem Ipsum is not simply randC, making it over 2000 years old.</p>
+                        <hr class="d-sm-none">
+                    </div>
+                </div>          
+            </div>
+            <div class="clearfix d-sm-none"></div>
+        </section>
     </div>
 
     <footer>

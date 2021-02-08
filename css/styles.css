@@ -5,6 +5,12 @@ body{
     font-family: 'Oxygen', sans-serif;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
 #header-nav{
     background-color: #f6b319;
     border-radius: 0;
@@ -122,5 +128,91 @@ body{
 }
 
 footer{
-    background-color: rgb(131, 126, 126);
+    background-color: rgb(83, 74, 74);
+    font-size: 14px;
+}
+
+#textdeliver{
+    color: rgb(47, 177, 47);
+    font-style: italic;
+}
+
+#footkop{
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+#menu-item{
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#menu-item:hover {
+    position: relative;
+    width: 101%;
+    height: 101%;
+}
+
+#menu-item a{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: rgb(116, 75, 75, 0.7);
+    width: 100%;
+    text-transform: uppercase;
+    padding: 4px 0;
+    color: white;
+}
+
+/* /Single Menu  */
+#singlemenu-img1{
+    background-image: url("../images/chinees-eten1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#singlemenu-img2{
+    background-image: url("../images/chinees-eten2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#singlemenu-img3{
+    background-image: url("../images/chinees-eten3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#singlemenu-img4{
+    background-image: url("../images/chinees-eten4.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+#singlemenu-img5{
+    background-image: url("../images/chinees-eten5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#singlemenu-text h3{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#singlemenu-text p{
+    font-size: 14px;
+}
+
+.price{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: rgb(199, 133, 133)!important;
+    margin-right: 20px;
+}
+
+#singlemenu-text span{
+    color: rgb(199, 133, 133);
 }
