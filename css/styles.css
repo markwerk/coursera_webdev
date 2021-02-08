@@ -54,15 +54,23 @@ hr {
 
 @media (min-width: 768px) and (max-width: 992px) {
     #logo-head {
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
     }
 }
 
 @media (max-width: 768px) {
     #logo-head {
-        width: 60px;
-        height: 60px;
+        width: 40px;
+        height: 40px;
+    }
+
+    #nav-text1 {
+        font-size: 0.6em;
+    }
+
+    .navbar-brand p {
+        font-size: 2em;
     }
 }
 
