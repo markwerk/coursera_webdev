@@ -69,9 +69,10 @@ hr {
         font-size: 0.6em;
     }
 
-    .navbar-brand p {
-        font-size: 2em;
+    #nav-text1 {
+        font-size: 0.6em;
     }
+
 }
 
 #navbarNav ul{
