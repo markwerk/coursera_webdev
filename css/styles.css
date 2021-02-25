@@ -18,11 +18,16 @@ hr {
     padding-right: 0;
 }
 
-#logo-img {
+/* #logo-img {
     background: url('../images/chinese-food.png') no-repeat;
     width: 150px;
     height: 150px;
     margin: 10px 15px 10px 0;
+} */
+
+#logo-head {
+    width: 70px;
+    height: 70px;
 }
 
 #nav-text1{
@@ -72,6 +77,7 @@ hr {
     #nav-text2 {
         font-size: 0.7em;
     }
+
 
 }
 
